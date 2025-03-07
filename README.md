@@ -1,52 +1,45 @@
-﻿# Meu Projeto Conta Bancaria
-Sistema Bancário em Python
+# ⚡ Meu Projeto - Conta Bancária
 
-Descrição
+Sistema Bancário simples desenvolvido em Python.
 
-Este é um sistema bancário simples desenvolvido em Python, que permite ao usuário realizar operações básicas como depósito, saque e visualização de extrato. O sistema opera com um único usuário e segue as seguintes regras:
+## 📄 Descrição
 
-Apenas valores positivos podem ser depositados.
+Este projeto implementa um sistema bancário básico que permite ao usuário realizar operações essenciais como:
 
-O usuário pode realizar até 3 saques diários.
+- ✨ **Depósito**: Apenas valores positivos são permitidos.
+- ⚡ **Saque**: Limitado a **3 saques diários**, com valor máximo de **R$500,00** por saque.
+- 📈 **Extrato**: Exibe todas as transações realizadas e o saldo atual.
 
-Cada saque tem um limite máximo de R$500,00.
+## 🔍 Funcionalidades
 
-O extrato exibe todas as transações realizadas e o saldo atual.
+- 💳 **Depósito**: Adicione valores à conta bancária.
+- 💸 **Saque**: Retire dinheiro respeitando os limites.
+- 📊 **Extrato**: Consulte seu histórico de transações.
 
-Funcionalidades
+## ⚙ Como Usar
 
-Depósito: Permite adicionar valores positivos à conta bancária.
+1. Execute o script `sistema_bancario.py`.
+2. Escolha uma das opções apresentadas no menu:
+   - `[1] Depositar`: Informe o valor a ser depositado.
+   - `[2] Sacar`: Informe o valor do saque.
+   - `[3] Extrato`: Exibe o histórico de transações.
+   - `[4] Sair`: Encerra o programa.
 
-Saque: Permite retirar dinheiro da conta respeitando as regras de limite diário e de valor por saque.
+## 💻 Requisitos
 
-Extrato: Exibe um histórico de transações e o saldo atual da conta.
+- Python **3.x** instalado.
 
-Como Usar
+## 🔄 Execução
 
-Execute o script sistema_bancario.py.
+Abra um terminal e execute:
 
-Escolha uma das opções apresentadas no menu:
-
-[1] Depositar: Informe o valor a ser depositado.
-
-[2] Sacar: Informe o valor a ser sacado (respeitando as regras de saque).
-
-[3] Extrato: Exibe todas as transações realizadas.
-
-[4] Sair: Encerra o programa.
-
-Requisitos
-
-Python 3.x instalado na máquina.
-
-Execução
-
-Abra um terminal e execute o seguinte comando:
-
+```bash
 python sistema_bancario.py
+```
 
-Exemplo de Uso
+## 📅 Exemplo de Uso
 
+```bash
 Escolha uma opção:
 [1] Depositar
 [2] Sacar
@@ -55,7 +48,8 @@ Escolha uma opção:
 Opção: 1
 Informe o valor do depósito: R$ 1000.00
 Depósito de R$ 1000.00 realizado com sucesso!
+```
 
-Autor
+## 👤 Autor
 
-Desenvolvido por RafaelFelipe.
+Desenvolvido por **Rafael Felipe**.
